@@ -1,0 +1,25 @@
+.game-board{
+  position : relative;
+  margin : 50px auto;
+  width : 500px;
+  height : 500px;
+  border : 2px solid #000;
+}
+
+.snake-body{
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: black;
+  border: 1px solid white;
+  z-index: 2;
+}
+
+.snake-food{
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background: red;
+  border : 1px solid white;
+  z-index: 1;
+}
