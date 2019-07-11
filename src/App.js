@@ -131,7 +131,7 @@ class App extends Component{
   }
 
   onGameOver() {
-    alert(`Whoops!!! Game Over. Score is ${this.state.snakePoints.length*5}`);
+    alert(`Whoops!!! Game Over. Score is ${this.state.snakePoints.length*5-10}`);
     this.setState(initialState)
   }
 
